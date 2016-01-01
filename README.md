@@ -8,7 +8,7 @@ https://developer.valvesoftware.com/wiki/Steam_Web_API/IEconService
 
 ## Usage
 
-### Python
+### Python (Windows)
 - Start a command prompt as an administrator and paste this:<br/><pre>SCHTASKS /Create /ST 08:00 /ET 23:59 /RU "SYSTEM" /TN SteamTradeNotifier /SC minute /MO 3 /TR "PYTHON_PATH SCRIPT_PATH"</pre>
 
 ##### Other commands
